@@ -1,0 +1,132 @@
+p {
+    font-family: 'Trade Gothic';
+}
+
+.page-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/public/images/About-us.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+.page-banner .page-title {
+    font-family: 'Trade Gothic';
+    font-weight: bold;
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+.title {
+    font-family: 'Trade Gothic';
+    font-weight: normal;
+    color: rgb(42, 42, 42);
+    letter-spacing: 1px;;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+}
+
+.slogan {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 0.7rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    
+}
+
+.content-section, .member-grid {
+    padding: 2rem 0rem 1rem 0rem;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.member-grid {
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+@media screen and (min-width: 768px) {
+    .about-section, .members-section {
+        width: 80%;
+        max-width: 80%;
+    }
+}
+
+
+.member-grid {
+    display: grid;
+    gap: 20px; 
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 10%;
+    text-align: center;
+}
+
+.member-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+    border-radius: 10%;
+}
+
+.member-name, .member-position {
+    font-size: 1rem;
+    padding-bottom: 5%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .member-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .member-grid {
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .member-grid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+    .page-banner {
+        height: 70vh;
+    }
+
+    .page-banner .page-title {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .page-banner {
+        height: 50vh;
+    }
+
+    .page-banner .page-title {
+        font-size: 3rem;
+    }
+}

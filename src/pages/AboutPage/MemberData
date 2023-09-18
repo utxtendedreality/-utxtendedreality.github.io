@@ -1,0 +1,16 @@
+const MemberData = [
+    {
+        id: 1,
+        image: "/path-to-image1",
+        name: "Member 1",
+        position: "Position 1"
+    },
+    {
+        id: 2,
+        image: "/path-to-image2",
+        name: "Member 2",
+        position: "Position 2"
+    }
+];
+
+export default MemberData;

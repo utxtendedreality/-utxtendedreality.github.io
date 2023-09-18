@@ -1,0 +1,35 @@
+.post-header {
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .post-header-title {
+    font-size: 1.5rem;
+  }
+  
+  .nav-element {
+    font-size: 1rem;
+    font-family: 'Trade Gothic';
+  }
+  
+  .nav-element:hover{
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .post-header a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+  }
+  
+  header nav{
+    display: flex;
+    gap: 30px;
+  }
+  
+  

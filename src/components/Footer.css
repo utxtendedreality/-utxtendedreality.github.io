@@ -1,0 +1,81 @@
+
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem; 
+    box-shadow: 0px -5px 10px rgba(0,0,0,0.1);
+    background-color: #EEE8D6;
+  }
+  
+  
+  .footer-logo-section {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .uoft-logo{
+    width: 90%;
+    height: auto;
+  }
+
+  .club-logo {
+    height: 3rem;
+  }
+  
+  .acknowledgement-section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .acknowledgement-title {
+    font-family: "Benbo";
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .acknowledgement-text {
+    font-family: "Benbo";
+    font-size: 1rem;
+  }
+  
+  .footer-info-section {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #e4dabd;
+    padding: 10px;
+}
+
+  
+  .footer-info-name {
+    font-size: 1rem;
+    font-family: "Benbo";
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  @media (min-width: 600px) { 
+    .uoft-logo {
+      width: 50%; 
+    }
+
+    .club-logo {
+      width: 150px;
+      height: auto; 
+    }
+  }

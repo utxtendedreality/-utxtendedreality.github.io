@@ -1,0 +1,146 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  position: sticky;
+  top: 0;
+  background-color: #EEE8D6;
+  padding: .3rem 1rem;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 5px 1px 5px -1px rgba(0,0,0,0.75);
+}
+
+
+.logo-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.logo {
+  height: 2.8rem;
+}
+
+.nav-section {
+  display: flex;
+  flex: 3; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-button,
+.dropdown-menu-button {
+  font-family: 'Trade Gothic', sans-serif;
+  font-weight: bold;
+  background: none;
+  border: none;
+  margin: 0 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.nav-button.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
+.nav-button:hover,
+.dropdown-menu-button:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.right-section {
+  display: flex;
+  flex: 1;
+}
+
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0; 
+  background-color: #f0ede3; 
+  box-shadow: 5px 1px 5px -1px rgba(0,0,0,0.75); 
+  z-index: 101; 
+  padding: 0.5rem 0; 
+  transform: scaleY(0); 
+  transform-origin: top;
+  transition: transform 0.3s ease-out, visibility 0s linear 0.3s; /* Add transition for visibility */
+  visibility: hidden;
+}
+
+.dropdown-menu.open {
+  transform: scaleY(1);
+  visibility: visible;
+  transition: transform 0.3s ease-out;
+}
+
+/* Add keyframes for closing animation */
+@keyframes closeMenu {
+  0% { transform: scaleY(1); visibility: visible; }
+  100% { transform: scaleY(0); visibility: hidden; }
+}
+
+.dropdown-menu.closing {
+  animation: 0.3s ease-out 0s 1 closeMenu; /* Apply the animation */
+}
+
+
+
+.dropdown-menu-button {
+  display: none;
+  font-family: 'Trade Gothic';
+  font-size: 1rem;
+  align-self: center;
+  padding-bottom: 3%;
+}
+
+
+.dropdown-menu .nav-button {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 500px) {
+  .nav-section {
+      display: none;
+  }
+
+  .dropdown-menu-button,
+  .dropdown-menu {
+      display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .right-section {
+      display: none;
+  }
+  
+  .logo-section,
+  .nav-section {
+      flex: 1; 
+  }
+
+  .header {
+      justify-content: space-between;
+  }
+
+  .dropdown-menu-button {
+      display: flex;
+      align-self: flex-end;
+  }
+}
+
+@media (min-width: 501px) {
+  .dropdown-menu.hide-on-desktop {
+    display: none;
+  }
+}

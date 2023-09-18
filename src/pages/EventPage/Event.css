@@ -1,0 +1,19 @@
+.event-posts-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Add this to center-align children vertically */
+}
+
+@media (min-width: 700px) {
+    .event-posts-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 40px 10px; 
+
+        align-items: stretch;
+    }
+}

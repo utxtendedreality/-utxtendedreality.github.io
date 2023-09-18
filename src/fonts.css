@@ -1,0 +1,42 @@
+@font-face {
+font-family: 'Benbo';
+src: url('../public/fonts/BemboStd.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Benbo';
+src: url('../public/fonts/Bembo-Bold-Font.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('../public/fonts/Trade Gothic LT Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('../public/fonts/Trade Gothic LT Condensed No. 18.ttf') format('truetype');
+    font-weight: condensed;
+    font-style: normal;
+}
+    
+
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('../public/fonts/Trade Gothic LT Light.ttf') format('truetype');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('../public/fonts/Trade Gothic LT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
