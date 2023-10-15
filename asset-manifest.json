@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e4a4b1f.css",
-    "main.js": "/static/js/main.3224af6b.js",
+    "main.css": "/static/css/main.ea2a6bcd.css",
+    "main.js": "/static/js/main.72a759cf.js",
     "static/js/787.154d680a.chunk.js": "/static/js/787.154d680a.chunk.js",
-    "static/media/purple-background.png": "/static/media/purple-background.ade127cb06495b1bd6a3.png",
-    "static/media/About-us.jpg": "/static/media/About-us.9dc64af311cdf37846ec.jpg",
+    "static/media/homeBanner.jpeg": "/static/media/homeBanner.f37e1703a9e98a68b1c7.jpeg",
+    "static/media/groupPicture.jpg": "/static/media/groupPicture.065c9a82327f3312de03.jpg",
     "static/media/BemboStd.ttf": "/static/media/BemboStd.4889130a7495883000cf.ttf",
     "static/media/Trade Gothic LT Condensed No. 18.ttf": "/static/media/Trade Gothic LT Condensed No. 18.1ee519fd841490fdc33a.ttf",
     "static/media/Trade Gothic LT Light.ttf": "/static/media/Trade Gothic LT Light.560089c1dfebdf3b5322.ttf",
@@ -14,12 +14,12 @@
     "static/media/utxr-logo-dark.png": "/static/media/utxr-logo-dark.57e438af7436807145b4.png",
     "static/media/uoft-logo.png": "/static/media/uoft-logo.15f698cb8498234858ac.png",
     "index.html": "/index.html",
-    "main.2e4a4b1f.css.map": "/static/css/main.2e4a4b1f.css.map",
-    "main.3224af6b.js.map": "/static/js/main.3224af6b.js.map",
+    "main.ea2a6bcd.css.map": "/static/css/main.ea2a6bcd.css.map",
+    "main.72a759cf.js.map": "/static/js/main.72a759cf.js.map",
     "787.154d680a.chunk.js.map": "/static/js/787.154d680a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e4a4b1f.css",
-    "static/js/main.3224af6b.js"
+    "static/css/main.ea2a6bcd.css",
+    "static/js/main.72a759cf.js"
   ]
 }
