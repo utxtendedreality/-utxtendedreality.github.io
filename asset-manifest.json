@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea2a6bcd.css",
-    "main.js": "/static/js/main.9e6d0c62.js",
+    "main.css": "/static/css/main.bf0c7353.css",
+    "main.js": "/static/js/main.21b7e59c.js",
     "static/js/787.154d680a.chunk.js": "/static/js/787.154d680a.chunk.js",
     "static/media/homeBanner.jpeg": "/static/media/homeBanner.f37e1703a9e98a68b1c7.jpeg",
     "static/media/groupPicture.jpg": "/static/media/groupPicture.065c9a82327f3312de03.jpg",
@@ -14,12 +14,12 @@
     "static/media/utxr-logo-dark.png": "/static/media/utxr-logo-dark.57e438af7436807145b4.png",
     "static/media/uoft-logo.png": "/static/media/uoft-logo.15f698cb8498234858ac.png",
     "index.html": "/index.html",
-    "main.ea2a6bcd.css.map": "/static/css/main.ea2a6bcd.css.map",
-    "main.9e6d0c62.js.map": "/static/js/main.9e6d0c62.js.map",
+    "main.bf0c7353.css.map": "/static/css/main.bf0c7353.css.map",
+    "main.21b7e59c.js.map": "/static/js/main.21b7e59c.js.map",
     "787.154d680a.chunk.js.map": "/static/js/787.154d680a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea2a6bcd.css",
-    "static/js/main.9e6d0c62.js"
+    "static/css/main.bf0c7353.css",
+    "static/js/main.21b7e59c.js"
   ]
 }
